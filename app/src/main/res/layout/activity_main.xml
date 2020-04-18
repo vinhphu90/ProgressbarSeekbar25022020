@@ -18,11 +18,11 @@
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"/> -->
     <SeekBar
+        android:max="5"
         android:id="@+id/seekbar"
         style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:progress="50"
         android:secondaryProgressTint="@color/colorPrimary"
-        android:secondaryProgress="100"
+        android:secondaryProgress="70"
         android:progressTint="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
